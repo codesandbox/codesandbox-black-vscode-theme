@@ -13,4 +13,5 @@ This is the dark theme from CodeSandbox, it's still a work in progress. Feel fre
 
 ### install
 
-Official docs: https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme
+
+[Marketplace with install button](https://marketplace.visualstudio.com/items?itemName=siddharthkp.codesandbox-black) | [Official docs for changing theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme)
