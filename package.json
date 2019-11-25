@@ -1,10 +1,14 @@
 {
   "name": "codesandbox-black",
-  "displayName": "codesandbox-black",
+  "author": "siddharthkp",
+  "publisher": "siddharthkp",
+  "displayName": "CodeSandbox Black",
+  "repository": "siddharthkp/codesandbox-black-vscode-theme",
   "description": "Dark theme from CodeSandbox",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.40.0"
+    "vscode": "^1.35.0"
   },
   "categories": [
     "Themes"
