@@ -13,6 +13,9 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "node build"
+  },
   "contributes": {
     "themes": [
       {
@@ -21,5 +24,8 @@
         "path": "./themes/CodeSandbox Black-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "dot-object": "^2.1.2"
   }
 }
