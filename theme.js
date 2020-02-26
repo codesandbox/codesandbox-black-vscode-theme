@@ -1,6 +1,6 @@
 const dot = require('dot-object');
 
-const colors = {
+const tokens = {
   white: '#fff',
   grays: {
     100: '#fff9f9',
@@ -36,265 +36,268 @@ const colors = {
 */
 
 const uiColors = {
-  contrastBorder: colors.grays[500],
+  contrastBorder: tokens.grays[600],
   contrastActiveBorder: null,
-  errorForeground: colors.reds[500],
-  focusBorder: colors.grays[500],
-  foreground: colors.grays[300],
+  errorForeground: tokens.reds[500],
+  focusBorder: tokens.grays[600],
+  foreground: tokens.grays[200],
   activityBar: {
-    background: colors.grays[700],
-    border: colors.grays[500]
+    background: tokens.grays[700],
+    border: tokens.grays[600]
   },
   activityBarBadge: {
-    background: colors.reds[500]
+    background: tokens.grays[500]
   },
   button: {
-    background: colors.blues[600],
-    foreground: colors.white,
-    border: colors.blues[600],
-    hoverBackground: colors.blues[600]
+    background: tokens.blues[600],
+    foreground: tokens.white,
+    border: tokens.blues[600]
   },
   dropdown: {
-    background: colors.grays[700],
-    border: colors.grays[500],
-    foreground: colors.white
+    background: tokens.grays[700],
+    border: tokens.grays[600],
+    foreground: tokens.white
   },
   editor: {
-    background: colors.grays[700],
-    foreground: colors.grays[300],
-    hoverHighlightBackground: colors.grays[600],
-    inactiveSelectionBackground: colors.grays[600],
-    lineHighlightBackground: colors.grays[500],
-    lineHighlightBorder: colors.grays[500],
-    rangeHighlightBackground: colors.grays[500],
-    selectionBackground: colors.grays[500],
-    selectionHighlightBackground: colors.grays[500],
-    wordHighlightStrongBackground: colors.grays[500],
-    wordHighlightBackground: colors.grays[500]
+    background: tokens.grays[700],
+    foreground: tokens.grays[300],
+    hoverHighlightBackground: tokens.grays[500],
+    inactiveSelectionBackground: tokens.grays[500],
+    lineHighlightBackground: tokens.grays[600],
+    lineHighlightBorder: tokens.grays[600],
+    rangeHighlightBackground: tokens.grays[600],
+    selectionBackground: tokens.blues[500] + '33', // 20% opacity
+    selectionHighlightBackground: tokens.grays[600],
+    wordHighlightStrongBackground: tokens.grays[600],
+    wordHighlightBackground: tokens.grays[600]
   },
   editorBracketMatch: {
-    background: colors.grays[500],
-    border: colors.grays[500]
+    background: tokens.grays[600],
+    border: tokens.grays[600]
   },
   editorCodeLens: {
-    foreground: colors.grays[500]
+    foreground: tokens.grays[600]
   },
   editorCursor: {
-    background: colors.grays[700],
-    foreground: colors.white
+    background: tokens.grays[700],
+    foreground: tokens.white
   },
   editorError: {
-    border: colors.grays[500],
-    foreground: colors.reds[500]
+    border: tokens.grays[600],
+    foreground: tokens.reds[500]
   },
   editorGroup: {
-    background: colors.grays[700],
-    border: colors.grays[500],
-    dropBackground: colors.grays[700]
+    background: tokens.grays[700],
+    border: tokens.grays[600],
+    dropBackground: tokens.blues[500] + '1a'
   },
   editorGroupHeader: {
     noTabsBackground: null,
-    tabsBackground: colors.grays[700],
-    tabsBorder: colors.grays[500]
+    tabsBackground: tokens.grays[700],
+    tabsBorder: tokens.grays[600]
   },
   editorGutter: {
-    background: colors.grays[700],
-    deletedBackground: colors.reds[500],
-    modifiedBackground: colors.grays[700]
+    background: tokens.grays[700],
+    deletedBackground: tokens.reds[500],
+    modifiedBackground: tokens.grays[700]
   },
   editorHoverWidget: {
-    background: colors.grays[700],
-    border: colors.grays[500]
+    background: tokens.grays[700],
+    border: tokens.grays[600]
   },
   editorIndentGuide: {
-    background: colors.grays[700]
+    background: tokens.grays[700]
   },
   editorLink: {
-    activeForeground: colors.grays[300]
+    activeForeground: tokens.grays[300]
   },
   editorLineNumber: {
-    foreground: colors.grays[500],
-    activeForeground: colors.grays[400]
+    foreground: tokens.grays[600],
+    activeForeground: tokens.grays[400]
   },
   editorRuler: {
-    foreground: colors.white
+    foreground: tokens.white
   },
   editorMarkerNavigation: {
-    background: colors.grays[700]
+    background: tokens.grays[700]
   },
   editorMarkerNavigationWarning: {
-    background: colors.grays[500]
+    background: tokens.grays[600]
   },
   editorMarkerNavigationError: {
-    background: colors.grays[700]
+    background: tokens.grays[700]
   },
   editorOverviewRuler: {
-    border: colors.grays[500],
-    commonContentForeground: colors.grays[500],
-    currentContentForeground: colors.reds[500],
-    incomingContentForeground: colors.green
+    border: tokens.grays[600],
+    commonContentForeground: tokens.grays[600],
+    currentContentForeground: tokens.reds[500],
+    incomingContentForeground: tokens.green
   },
   editorSuggestWidget: {
-    background: colors.grays[700],
-    border: colors.grays[500],
-    foreground: colors.grays[300],
-    selectedBackground: colors.grays[500]
+    background: tokens.grays[700],
+    border: tokens.grays[600],
+    foreground: tokens.grays[300],
+    selectedBackground: tokens.grays[600]
   },
   editorWarning: {
-    border: colors.grays[500],
-    foreground: colors.reds[300]
+    border: tokens.grays[600],
+    foreground: tokens.reds[300]
   },
   editorWhitespace: {
-    foreground: colors.grays[600]
+    foreground: tokens.grays[500]
   },
   editorWidget: {
-    background: colors.grays[700],
-    border: colors.grays[500]
+    background: tokens.grays[700],
+    border: tokens.grays[600]
   },
   extensionButton: {
-    prominentBackground: colors.grays[500],
-    prominentForeground: colors.white,
-    prominentHoverBackground: colors.grays[500]
+    prominentBackground: tokens.grays[600],
+    prominentForeground: tokens.white,
+    prominentHoverBackground: tokens.grays[600]
   },
   input: {
-    background: colors.grays[500],
-    foreground: colors.white,
-    border: colors.grays[800],
-    placeholderForeground: colors.grays[300]
+    background: tokens.grays[600],
+    foreground: tokens.white,
+    border: tokens.grays[900],
+    placeholderForeground: tokens.grays[300]
   },
   inputOption: {
-    activeBorder: colors.blues[300]
+    activeBorder: tokens.grays[500]
   },
   inputValidation: {
     infoForeground: null,
     infoBackground: null,
-    infoBorder: colors.purple,
+    infoBorder: tokens.purple,
     warningForeground: null,
     warningBackground: null,
-    warningBorder: colors.yellow,
+    warningBorder: tokens.yellow,
     errorForeground: null,
     errorBackground: null,
-    errorBorder: colors.reds[500]
+    errorBorder: tokens.reds[500]
   },
   list: {
-    dropBackground: colors.grays[700],
-    highlightForeground: colors.blues[300],
-    hoverBackground: colors.grays[500],
-    focusBackground: colors.grays[500],
-    activeSelectionBackground: colors.grays[500],
-    activeSelectionForeground: colors.white,
-    inactiveSelectionBackground: colors.grays[500],
-    inactiveSelectionForeground: colors.white,
-    warningForeground: colors.yellow,
-    errorForeground: colors.reds[500],
+    dropBackground: tokens.grays[700],
+    highlightForeground: tokens.blues[300],
+    hoverBackground: tokens.grays[600],
+    focusBackground: tokens.grays[600],
+    activeSelectionBackground: tokens.grays[600],
+    activeSelectionForeground: tokens.white,
+    inactiveSelectionBackground: tokens.grays[600],
+    inactiveSelectionForeground: tokens.white,
+    warningForeground: tokens.yellow,
+    errorForeground: tokens.reds[500],
     hoverForeground: null,
     focusForeground: null
   },
   menu: {
-    background: colors.grays[700],
-    selectionBackground: colors.grays[500]
+    background: tokens.grays[700],
+    selectionBackground: tokens.grays[600]
   },
   peekView: {
-    border: colors.grays[600]
+    border: tokens.grays[500]
   },
   peekViewEditor: {
-    background: colors.grays[500],
-    matchHighlightBackground: colors.blues[300]
+    background: tokens.grays[600],
+    matchHighlightBackground: tokens.blues[300]
   },
   peekViewEditorGutter: {
     background: null
   },
   peekViewResult: {
-    background: colors.grays[500],
-    fileForeground: colors.white,
-    lineForeground: colors.white,
-    matchHighlightBackground: colors.blues[300],
-    selectionBackground: colors.grays[500],
-    selectionForeground: colors.white
+    background: tokens.grays[600],
+    fileForeground: tokens.white,
+    lineForeground: tokens.white,
+    matchHighlightBackground: tokens.blues[300],
+    selectionBackground: tokens.grays[600],
+    selectionForeground: tokens.white
   },
   peekViewTitle: {
-    background: colors.grays[500]
+    background: tokens.grays[600]
   },
   peekViewTitleDescription: {
-    foreground: colors.blues[700]
+    foreground: tokens.blues[700]
   },
   peekViewTitleLabel: {
-    foreground: colors.white
+    foreground: tokens.white
   },
   scrollbarSlider: {
-    activeBackground: colors.white,
-    border: colors.grays[500],
+    activeBackground: tokens.white,
+    border: tokens.grays[600],
     background: null,
     hoverBackground: null
   },
   selection: {
-    background: colors.blues[700]
+    background: tokens.blues[500] + '40' // 25% opacity
+  },
+  separator: {
+    background: tokens.grays[900],
+    foreground: tokens.white
   },
   sideBar: {
-    background: colors.grays[700],
-    hoverBackground: colors.green,
-    border: colors.grays[500],
-    foreground: colors.grays[300]
+    background: tokens.grays[700],
+    hoverBackground: tokens.grays[600],
+    border: tokens.grays[600],
+    foreground: tokens.grays[200]
   },
   sideBarSectionHeader: {
-    background: colors.grays[700],
-    foreground: colors.white,
-    border: colors.grays[500]
+    background: tokens.grays[700],
+    foreground: tokens.white,
+    border: tokens.grays[600]
   },
   sideBarTitle: {
-    foreground: colors.white
+    foreground: tokens.white
   },
   statusBar: {
-    background: colors.grays[500],
-    foreground: colors.white,
-    debuggingBackground: colors.reds[500],
-    debuggingForeground: colors.grays[500],
-    noFolderBackground: colors.grays[500],
-    noFolderForeground: colors.white,
-    border: colors.grays[500]
+    background: tokens.grays[600],
+    foreground: tokens.white,
+    debuggingBackground: tokens.reds[500],
+    debuggingForeground: tokens.grays[600],
+    noFolderBackground: tokens.grays[600],
+    noFolderForeground: tokens.white,
+    border: tokens.grays[600]
   },
   statusBarItem: {
     activeBackground: null,
     hoverBackground: null,
-    prominentBackground: colors.reds[500],
-    prominentHoverBackground: colors.yellow,
-    remoteForeground: colors.grays[100],
-    remoteBackground: colors.purple
+    prominentBackground: tokens.reds[500],
+    prominentHoverBackground: tokens.yellow,
+    remoteForeground: tokens.grays[100],
+    remoteBackground: tokens.purple
   },
   tab: {
-    activeBackground: colors.grays[700],
-    activeForeground: colors.white,
-    border: colors.grays[500],
-    activeBorder: colors.blues[300],
+    activeBackground: tokens.grays[700],
+    activeForeground: tokens.white,
+    border: tokens.grays[600],
+    activeBorder: tokens.blues[300],
     unfocusedActiveBorder: null,
-    inactiveBackground: colors.grays[700],
-    inactiveForeground: colors.grays[400],
-    unfocusedActiveForeground: colors.white,
-    unfocusedInactiveForeground: colors.grays[400]
+    inactiveBackground: tokens.grays[700],
+    inactiveForeground: tokens.grays[400],
+    unfocusedActiveForeground: tokens.white,
+    unfocusedInactiveForeground: tokens.grays[400]
   },
   terminal: {
-    background: colors.grays[800],
-    foreground: colors.white,
-    ansiBrightBlack: colors.blues[700],
-    ansiBrightRed: colors.reds[500],
-    ansiBrightGreen: colors.green,
-    ansiBrightYellow: colors.yellow,
-    ansiBlack: colors.grays[500],
-    ansiRed: colors.reds[500],
-    ansiGreen: colors.green,
-    ansiYellow: colors.yellow,
-    ansiBlue: colors.blues[700],
-    ansiMagenta: colors.purple,
-    ansiCyan: colors.blues[300],
-    ansiWhite: colors.white
+    background: tokens.grays[700],
+    foreground: tokens.white,
+    ansiBrightBlack: tokens.blues[700],
+    ansiBrightRed: tokens.reds[500],
+    ansiBrightGreen: tokens.green,
+    ansiBrightYellow: tokens.yellow,
+    ansiBlack: tokens.grays[600],
+    ansiRed: tokens.reds[500],
+    ansiGreen: tokens.green,
+    ansiYellow: tokens.yellow,
+    ansiBlue: tokens.blues[700],
+    ansiMagenta: tokens.purple,
+    ansiCyan: tokens.blues[300],
+    ansiWhite: tokens.white
   },
   titleBar: {
-    background: colors.grays[700],
-    activeBackground: colors.grays[700],
-    activeForeground: colors.white,
-    border: colors.grays[500],
-    inactiveBackground: colors.grays[700],
-    inactiveForeground: colors.grays[300]
+    background: tokens.grays[700],
+    activeBackground: tokens.grays[700],
+    activeForeground: tokens.white,
+    border: tokens.grays[600],
+    inactiveBackground: tokens.grays[700],
+    inactiveForeground: tokens.grays[300]
   }
 };
 
@@ -1819,7 +1822,7 @@ const tokenColors = [
 
 const theme = {
   name: 'CodeSandbox Black',
-  type: 'dark',
+  type: 'light',
   // convert to vscode style flat dot notation
   colors: dot.dot(uiColors),
   tokenColors
