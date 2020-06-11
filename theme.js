@@ -117,7 +117,7 @@ const uiColors = {
     activeForeground: tokens.grays[400]
   },
   editorRuler: {
-    foreground: tokens.white
+    foreground: tokens.grays[600]
   },
   editorMarkerNavigation: {
     background: tokens.grays[700]
