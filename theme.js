@@ -307,7 +307,7 @@ const tokenColors = [
     name: 'Comment',
     scope: ['comment'],
     settings: {
-      foreground: '#E1270E',
+      foreground: '#5C6370',
       fontStyle: 'italic',
     },
   },
