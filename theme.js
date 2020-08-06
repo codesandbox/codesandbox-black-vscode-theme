@@ -307,7 +307,7 @@ const tokenColors = [
     name: 'Comment',
     scope: ['comment'],
     settings: {
-      foreground: '#5C6370',
+      foreground: '#757575',
       fontStyle: 'italic',
     },
   },
@@ -315,175 +315,175 @@ const tokenColors = [
     name: 'Comment Markup Link',
     scope: ['comment markup.link'],
     settings: {
-      foreground: '#5C6370',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Entity Name Type',
     scope: ['entity.name.type'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Entity Other Inherited Class',
     scope: ['entity.other.inherited-class'],
     settings: {
-      foreground: '#98C379',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Keyword',
     scope: ['keyword'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#977CDC',
     },
   },
   {
     name: 'Keyword Control',
     scope: ['keyword.control'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Keyword Operator',
     scope: ['keyword.operator'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Keyword Other Special Method',
     scope: ['keyword.other.special-method'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Keyword Other Unit',
     scope: ['keyword.other.unit'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#C64640',
     },
   },
   {
     name: 'Storage',
     scope: ['storage'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Storage Type Annotation,storage Type Primitive',
     scope: ['storage.type.annotation', 'storage.type.primitive'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Storage Modifier Package,storage Modifier Import',
     scope: ['storage.modifier.package', 'storage.modifier.import'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Constant',
     scope: ['constant'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Constant Variable',
     scope: ['constant.variable'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#977CDC',
     },
   },
   {
     name: 'Constant Character Escape',
     scope: ['constant.character.escape'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Constant Numeric',
     scope: ['constant.numeric'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#C64640',
     },
   },
   {
     name: 'Constant Other Color',
     scope: ['constant.other.color'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFAB5C',
     },
   },
   {
     name: 'Constant Other Symbol',
     scope: ['constant.other.symbol'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Variable',
     scope: ['variable'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFAB5C',
     },
   },
   {
     name: 'Variable Interpolation',
     scope: ['variable.interpolation'],
     settings: {
-      foreground: '#BE5046',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Variable Parameter',
     scope: ['variable.parameter'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'String',
     scope: ['string'],
     settings: {
-      foreground: '#98C379',
+      foreground: '#977CDC',
     },
   },
   {
     name: 'String Regexp',
     scope: ['string.regexp'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'String Regexp Source Ruby Embedded',
     scope: ['string.regexp source.ruby.embedded'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'String Other Link',
     scope: ['string.other.link'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Punctuation Definition Comment',
     scope: ['punctuation.definition.comment'],
     settings: {
-      foreground: '#5C6370',
+      foreground: '#757575',
     },
   },
   {
@@ -498,7 +498,7 @@ const tokenColors = [
       'punctuation.definition.array',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -508,14 +508,14 @@ const tokenColors = [
       'punctuation.definition.identity',
     ],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Punctuation Definition Bold',
     scope: ['punctuation.definition.bold'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#DFE2E7',
       fontStyle: 'bold',
     },
   },
@@ -523,7 +523,7 @@ const tokenColors = [
     name: 'Punctuation Definition Italic',
     scope: ['punctuation.definition.italic'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#977CDC',
       fontStyle: 'italic',
     },
   },
@@ -531,7 +531,7 @@ const tokenColors = [
     name: 'Punctuation Section Embedded',
     scope: ['punctuation.section.embedded'],
     settings: {
-      foreground: '#BE5046',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -543,141 +543,140 @@ const tokenColors = [
       'punctuation.section.inner-class',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Support Class',
     scope: ['support.class'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#DFAB5C',
     },
   },
   {
     name: 'Support Type',
     scope: ['support.type'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#86D9CA',
     },
   },
   {
     name: 'Support Function',
     scope: ['support.function'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#86D9CA',
     },
   },
   {
     name: 'Support Function Any Method',
     scope: ['support.function.any-method'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Entity Name Function',
     scope: ['entity.name.function'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#86D9CA',
     },
   },
   {
     name: 'Entity Name Class,entity Name Type Class',
     scope: ['entity.name.class', 'entity.name.type.class'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#86D9CA',
     },
   },
   {
     name: 'Entity Name Section',
     scope: ['entity.name.section'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Entity Name Tag',
     scope: ['entity.name.tag'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#86D9CA',
     },
   },
   {
     name: 'Entity Other Attribute Name',
     scope: ['entity.other.attribute-name'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Entity Other Attribute Name Id',
     scope: ['entity.other.attribute-name.id'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Meta Class',
     scope: ['meta.class'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Class Body',
     scope: ['meta.class.body'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Method Call,meta Method',
     scope: ['meta.method-call', 'meta.method'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Definition Variable',
     scope: ['meta.definition.variable'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Link',
     scope: ['meta.link'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Require',
     scope: ['meta.require'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Selector',
     scope: ['meta.selector'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Meta Separator',
     scope: ['meta.separator'],
     settings: {
-      background: '#373B41',
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Meta Tag',
     scope: ['meta.tag'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -691,14 +690,14 @@ const tokenColors = [
     name: 'None',
     scope: ['none'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Invalid Deprecated',
     scope: ['invalid.deprecated'],
     settings: {
-      foreground: '#523D14',
+      foreground: '#DFE2E7',
       background: '#E0C285',
     },
   },
@@ -706,7 +705,7 @@ const tokenColors = [
     name: 'Invalid Illegal',
     scope: ['invalid.illegal'],
     settings: {
-      foreground: 'white',
+      foreground: '#DFE2E7',
       background: '#E05252',
     },
   },
@@ -714,7 +713,7 @@ const tokenColors = [
     name: 'Markup Bold',
     scope: ['markup.bold'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
       fontStyle: 'bold',
     },
   },
@@ -722,21 +721,21 @@ const tokenColors = [
     name: 'Markup Changed',
     scope: ['markup.changed'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Deleted',
     scope: ['markup.deleted'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Italic',
     scope: ['markup.italic'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#DFE2E7',
       fontStyle: 'italic',
     },
   },
@@ -744,70 +743,70 @@ const tokenColors = [
     name: 'Markup Heading',
     scope: ['markup.heading'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Heading Punctuation Definition Heading',
     scope: ['markup.heading punctuation.definition.heading'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Link',
     scope: ['markup.link'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Inserted',
     scope: ['markup.inserted'],
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Quote',
     scope: ['markup.quote'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Markup Raw',
     scope: ['markup.raw'],
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Source C Keyword Operator',
     scope: ['source.c keyword.operator'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Cpp Keyword Operator',
     scope: ['source.cpp keyword.operator'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Cs Keyword Operator',
     scope: ['source.cs keyword.operator'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Css Property Name,source Css Property Value',
     scope: ['source.css property-name', 'source.css property-value'],
     settings: {
-      foreground: '#828997',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -817,7 +816,7 @@ const tokenColors = [
       'source.css property-value.support',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -831,63 +830,63 @@ const tokenColors = [
     name: 'Source Gfm Link Entity',
     scope: ['source.gfm link entity'],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Go Storage Type String',
     scope: ['source.go storage.type.string'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Ini Keyword Other Definition Ini',
     scope: ['source.ini keyword.other.definition.ini'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Java Storage Modifier Import',
     scope: ['source.java storage.modifier.import'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Java Storage Type',
     scope: ['source.java storage.type'],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Java Keyword Operator Instanceof',
     scope: ['source.java keyword.operator.instanceof'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Java Properties Meta Key Pair',
     scope: ['source.java-properties meta.key-pair'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Source Java Properties Meta Key Pair > Punctuation',
     scope: ['source.java-properties meta.key-pair > punctuation'],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Js Keyword Operator',
     scope: ['source.js keyword.operator'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -903,14 +902,14 @@ const tokenColors = [
       'source.js keyword.operator.void',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Json Meta Structure Dictionary Json > String Quoted Json',
     scope: ['source.json meta.structure.dictionary.json > string.quoted.json'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -920,7 +919,7 @@ const tokenColors = [
       'source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -933,7 +932,7 @@ const tokenColors = [
       'source.json meta.structure.array.json > value.json > string.quoted.json > punctuation',
     ],
     settings: {
-      foreground: '#98C379',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -944,91 +943,91 @@ const tokenColors = [
       'source.json meta.structure.array.json > constant.language.json',
     ],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Ruby Constant Other Symbol > Punctuation',
     scope: ['source.ruby constant.other.symbol > punctuation'],
     settings: {
-      foreground: 'inherit',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Python Keyword Operator Logical Python',
     scope: ['source.python keyword.operator.logical.python'],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Source Python Variable Parameter',
     scope: ['source.python variable.parameter'],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Meta Attribute Rust',
     scope: ['meta.attribute.rust'],
     settings: {
-      foreground: '#BCC199',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'Storage Modifier Lifetime Rust,entity Name Lifetime Rust',
     scope: ['storage.modifier.lifetime.rust', 'entity.name.lifetime.rust'],
     settings: {
-      foreground: '#33E8EC',
+      foreground: '#77B7D7',
     },
   },
   {
     name: 'Keyword Unsafe Rust',
     scope: ['keyword.unsafe.rust'],
     settings: {
-      foreground: '#CC6B73',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: 'customrule',
     scope: 'customrule',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Support Type Property Name',
     scope: 'support.type.property-name',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Punctuation for Quoted String',
     scope: 'string.quoted.double punctuation',
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Support Constant',
     scope: 'support.constant',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] JSON Property Name',
     scope: 'support.type.property-name.json',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] JSON Punctuation for Property Name',
     scope: 'support.type.property-name.json punctuation',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1039,7 +1038,7 @@ const tokenColors = [
       'punctuation.separator.key-value.tsx',
     ],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1049,7 +1048,7 @@ const tokenColors = [
       'source.ts.embedded.html keyword.operator',
     ],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1060,14 +1059,14 @@ const tokenColors = [
       'variable.other.readwrite.tsx',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] JS/TS Support Variable Dom',
     scope: ['support.variable.dom.js', 'support.variable.dom.ts'],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1077,7 +1076,7 @@ const tokenColors = [
       'support.variable.property.dom.ts',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1087,7 +1086,7 @@ const tokenColors = [
       'meta.template.expression.ts punctuation.definition',
     ],
     settings: {
-      foreground: '#BE5046',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1098,7 +1097,7 @@ const tokenColors = [
       'source.tsx punctuation.definition.typeparameters',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1109,7 +1108,7 @@ const tokenColors = [
       'source.tsx punctuation.definition.block',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1120,7 +1119,7 @@ const tokenColors = [
       'source.tsx punctuation.separator.comma',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1131,7 +1130,7 @@ const tokenColors = [
       'support.variable.property.tsx',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1142,7 +1141,7 @@ const tokenColors = [
       'keyword.control.default.tsx',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1153,7 +1152,7 @@ const tokenColors = [
       'keyword.operator.expression.instanceof.tsx',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1164,7 +1163,7 @@ const tokenColors = [
       'keyword.operator.expression.of.tsx',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1181,7 +1180,7 @@ const tokenColors = [
       'meta.brace.square.tsx',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1192,7 +1191,7 @@ const tokenColors = [
       'source.tsx punctuation.accessor',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1203,7 +1202,7 @@ const tokenColors = [
       'punctuation.terminator.statement.tsx',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1214,7 +1213,7 @@ const tokenColors = [
       'meta.array-binding-pattern-variable.tsx variable.other.readwrite.tsx',
     ],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1225,7 +1224,7 @@ const tokenColors = [
       'source.tsx support.variable',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1236,7 +1235,7 @@ const tokenColors = [
       'variable.other.constant.property.tsx',
     ],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFC45C',
     },
   },
   {
@@ -1247,14 +1246,14 @@ const tokenColors = [
       'keyword.operator.new.tsx',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] TS Keyword Operator',
     scope: ['source.ts keyword.operator', 'source.tsx keyword.operator'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1265,7 +1264,7 @@ const tokenColors = [
       'punctuation.separator.parameter.tsx ',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1275,7 +1274,7 @@ const tokenColors = [
       'constant.language.import-export-all.ts',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1285,7 +1284,7 @@ const tokenColors = [
       'constant.language.import-export-all.tsx',
     ],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1297,7 +1296,7 @@ const tokenColors = [
       'keyword.control.as.tsx',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1309,7 +1308,7 @@ const tokenColors = [
       'variable.other.readwrite.alias.tsx',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1321,7 +1320,7 @@ const tokenColors = [
       'variable.other.constant.tsx',
     ],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1331,7 +1330,7 @@ const tokenColors = [
       'meta.export.default.ts variable.other.readwrite.ts',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1342,7 +1341,7 @@ const tokenColors = [
       'source.tsx meta.template.expression.tsx punctuation.accessor',
     ],
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1354,7 +1353,7 @@ const tokenColors = [
       'source.tsx meta.import-equals.external.tsx keyword.operator',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1362,14 +1361,14 @@ const tokenColors = [
     scope:
       'entity.name.type.module.js,entity.name.type.module.ts,entity.name.type.module.jsx,entity.name.type.module.tsx',
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] JS/TS Meta Class',
     scope: 'meta.class.js,meta.class.ts,meta.class.jsx,meta.class.tsx',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1381,7 +1380,7 @@ const tokenColors = [
       'meta.definition.property.tsx variable',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1393,7 +1392,7 @@ const tokenColors = [
       'meta.type.parameters.tsx support.type',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1405,7 +1404,7 @@ const tokenColors = [
       'source.tsx meta.tag.tsx keyword.operator',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#757575',
     },
   },
   {
@@ -1417,7 +1416,7 @@ const tokenColors = [
       'meta.tag.tsx punctuation.section.embedded',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1429,7 +1428,7 @@ const tokenColors = [
       'meta.array.literal.tsx variable',
     ],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1441,14 +1440,14 @@ const tokenColors = [
       'support.type.object.module.tsx',
     ],
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] JSON Constants',
     scope: ['constant.language.json'],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1460,7 +1459,7 @@ const tokenColors = [
       'variable.other.constant.object.tsx',
     ],
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1472,7 +1471,7 @@ const tokenColors = [
       'storage.type.property.tsx',
     ],
     settings: {
-      foreground: '#56B6C2',
+      foreground: '#77B7D7',
     },
   },
   {
@@ -1484,7 +1483,7 @@ const tokenColors = [
       'meta.template.expression.tsx string.quoted punctuation.definition',
     ],
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1496,7 +1495,7 @@ const tokenColors = [
       'meta.template.expression.tsx string.template punctuation.definition.string.template',
     ],
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
@@ -1508,217 +1507,217 @@ const tokenColors = [
       'keyword.operator.expression.in.tsx',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Constants Other',
     scope: 'source.python constant.other',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Constants',
     scope: 'source.python constant',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Placeholder Character',
     scope: 'constant.character.format.placeholder.other.python storage',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Magic',
     scope: 'support.variable.magic.python',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Meta Function Parameters',
     scope: 'meta.function.parameters.python',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Function Separator Annotation',
     scope: 'punctuation.separator.annotation.python',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Python Function Separator Punctuation',
     scope: 'punctuation.separator.parameters.python',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Fields',
     scope: 'entity.name.variable.field.cs',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Keyword Operators',
     scope: 'source.cs keyword.operator',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Variables',
     scope: 'variable.other.readwrite.cs',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Variables Other',
     scope: 'variable.other.object.cs',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Property Other',
     scope: 'variable.other.object.property.cs',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Property',
     scope: 'entity.name.variable.property.cs',
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] CSharp Storage Type',
     scope: 'storage.type.cs',
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Rust Unsafe Keyword',
     scope: 'keyword.other.unsafe.rust',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Raw Block',
     scope: 'markup.raw.block.markdown',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Shell Variables Punctuation Definition',
     scope: 'punctuation.definition.variable.shell',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Css Support Constant Value',
     scope: 'support.constant.property-value.css',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFAB5C',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Css Punctuation Definition Constant',
     scope: 'punctuation.definition.constant.css',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFAB5C',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Sass Punctuation for key-value',
     scope: 'punctuation.separator.key-value.scss',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Sass Punctuation for constants',
     scope: 'punctuation.definition.constant.scss',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Sass Punctuation for key-value',
     scope: 'meta.property-list.scss punctuation.separator.key-value.scss',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Java Storage Type Primitive Array',
     scope: 'storage.type.primitive.array.java',
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown headings',
     scope: 'entity.name.section.markdown',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown heading Punctuation Definition',
     scope: 'punctuation.definition.heading.markdown',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown heading setext',
     scope: 'markup.heading.setext',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#77B7D7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Punctuation Definition Bold',
     scope: 'punctuation.definition.bold.markdown',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Inline Raw',
     scope: 'markup.inline.raw.markdown',
     settings: {
-      foreground: '#98C379',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown List Punctuation Definition',
     scope: 'beginning.punctuation.definition.list.markdown',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Quote',
     scope: 'markup.quote.markdown',
     settings: {
-      foreground: '#5C6370',
+      foreground: '#977CDC',
       fontStyle: 'italic',
     },
   },
@@ -1730,14 +1729,14 @@ const tokenColors = [
       'punctuation.definition.metadata.markdown',
     ],
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Markdown Punctuation Definition Link',
     scope: 'punctuation.definition.metadata.markdown',
     settings: {
-      foreground: '#C678DD',
+      foreground: '#977CDC',
     },
   },
   {
@@ -1747,7 +1746,7 @@ const tokenColors = [
       'markup.underline.link.image.markdown',
     ],
     settings: {
-      foreground: '#C678DD',
+      foreground: '#DFAB5C',
     },
   },
   {
@@ -1757,66 +1756,66 @@ const tokenColors = [
       'string.other.link.description.markdown',
     ],
     settings: {
-      foreground: '#61AFEF',
+      foreground: '#977CDC',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Ruby Punctuation Separator Variable',
     scope: 'punctuation.separator.variable.ruby',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Ruby Other Constant Variable',
     scope: 'variable.other.constant.ruby',
     settings: {
-      foreground: '#D19A66',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] Ruby Keyword Operator Other',
     scope: 'keyword.operator.other.ruby',
     settings: {
-      foreground: '#98C379',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] PHP Punctuation Variable Definition',
     scope: 'punctuation.definition.variable.php',
     settings: {
-      foreground: '#E06C75',
+      foreground: '#DFE2E7',
     },
   },
   {
     name: '[VSCODE-CUSTOM] PHP Meta Class',
     scope: 'meta.class.php',
     settings: {
-      foreground: '#ABB2BF',
+      foreground: '#DFE2E7',
     },
   },
   {
     scope: 'token.info-token',
     settings: {
-      foreground: '#6796e6',
+      foreground: '#DFE2E7',
     },
   },
   {
     scope: 'token.warn-token',
     settings: {
-      foreground: '#cd9731',
+      foreground: '#DFE2E7',
     },
   },
   {
     scope: 'token.error-token',
     settings: {
-      foreground: '#f44747',
+      foreground: '#DFE2E7',
     },
   },
   {
     scope: 'token.debug-token',
     settings: {
-      foreground: '#b267e6',
+      foreground: '#DFE2E7',
     },
   },
 ];
