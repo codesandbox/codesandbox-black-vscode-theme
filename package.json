@@ -5,7 +5,7 @@
   "displayName": "CodeSandbox Black",
   "repository": "siddharthkp/codesandbox-black-vscode-theme",
   "description": "Dark theme from CodeSandbox",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.35.0"
