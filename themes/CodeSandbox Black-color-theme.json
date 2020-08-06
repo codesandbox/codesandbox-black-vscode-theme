@@ -1,6 +1,6 @@
 {
   "name": "CodeSandbox Black",
-  "type": "dark",
+  "type": "light",
   "colors": {
     "contrastBorder": "#343434",
     "contrastActiveBorder": null,
@@ -210,7 +210,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#b6e01f"
+        "foreground": "#C678DD"
       }
     },
     {
@@ -219,7 +219,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#5aec20"
+        "foreground": "#C678DD"
       }
     },
     {

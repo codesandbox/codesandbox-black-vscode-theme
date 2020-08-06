@@ -336,14 +336,14 @@ const tokenColors = [
     name: 'Keyword',
     scope: ['keyword'],
     settings: {
-      foreground: '#b6e01f',
+      foreground: '#C678DD',
     },
   },
   {
     name: 'Keyword Control',
     scope: ['keyword.control'],
     settings: {
-      foreground: '#5aec20',
+      foreground: '#C678DD',
     },
   },
   {
@@ -1823,7 +1823,7 @@ const tokenColors = [
 
 const theme = {
   name: 'CodeSandbox Black',
-  type: 'dark',
+  type: 'light',
   // convert to vscode style flat dot notation
   colors: dot.dot(uiColors),
   tokenColors,
