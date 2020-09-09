@@ -62,6 +62,7 @@ const uiColors = {
   editor: {
     background: tokens.grays[700],
     foreground: tokens.grays[300],
+    foldBackground: tokens.grays[700],
     hoverHighlightBackground: tokens.grays[500],
     inactiveSelectionBackground: tokens.grays[500],
     lineHighlightBackground: tokens.grays[600],
