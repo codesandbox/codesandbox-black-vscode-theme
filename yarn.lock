@@ -26,9 +26,9 @@ concat-map@0.0.1:
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
 dot-object@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/dot-object/-/dot-object-2.1.2.tgz#571fece46f16368193bbe39265b8ec7804c5b0f4"
-  integrity sha512-Hx7gYDQfb4umAku7VJW0fr3SXXTaghfBhYNbc4eHTjkgPMoY4DAw210j76mSSlV9LiTozVswT462e4xL7w3GZA==
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/dot-object/-/dot-object-2.1.3.tgz#aa261fdefd232f0edb17e77ff4708bbed6f04b2e"
+  integrity sha512-YihsbZiGU2nEXQs1vjwjBNDJ85BMRHO4ahybAsuHERCxUecFoyt4xM3NO4GskNj8hFLRsgrwE4xBDe8XSOAiYg==
   dependencies:
     commander "^4.0.0"
     glob "^7.1.5"
